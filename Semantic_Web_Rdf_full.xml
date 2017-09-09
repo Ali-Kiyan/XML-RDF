@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"        
+xmlns:ex="http://example.org/"
+xml:base ="http://example.org/">
+    
+    
+    
+
+    <rdf:Description rdf:about="places" >
+        <ex:placename rdf:resource="builtup"/> 
+        <ex:placename rdf:resource="countryside"/>
+        <ex:placename rdf:resource="coastal"/>
+        <ex:placename rdf:resource="naturereserves"/>
+    </rdf:Description> 
+    <rdf:Description rdf:about="builtup">
+        <ex:nameofbird>
+         <rdf:Description rdf:about="sparrowhawks">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Woodlands"/>
+            <rdf:li rdf:resource="gardens"/>
+            <rdf:li rdf:resource="towns"/>
+            <rdf:li rdf:resource="rural areas"/>
+            <rdf:li rdf:resource="starlings"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>From colder regions of northern Europe and Asia migrate south for the winter, some to north Africa and India; members of the southern populations are resident or disperse.
+          </ex:migrationpattern>
+          <ex:type>Bird of prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="finches"/>
+            <rdf:li rdf:resource="sparrows"/>
+            <rdf:li rdf:resource="buntings"/>
+            <rdf:li rdf:resource="thrushes"/>
+            <rdf:li rdf:resource="starlings"/>
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>Males move further and more often than females
+          of migrating birds ringed at Kaliningrad, Russia, the average distance moved before recovery was 1,328 km for males and 927 km for females.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">342</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">31</ex:maxwingspan>
+          <ex:eyecolour >Yellow
+          </ex:eyecolour>
+          <ex:eyecolour >Orange
+          </ex:eyecolour>
+          <ex:size rdf:resource="median"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ex:maxlength> 
+          <ex:malecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Slate-grey</ex:upperpartcolour>
+            <ex:underpartcolour>finely red-barred</ex:underpartcolour>
+           </rdf:Description>
+          </ex:malecolour> 
+          <ex:femalecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Greyish-brown</ex:upperpartcolour>
+            <ex:underpartcolour>brownbarred</ex:underpartcolour>
+           </rdf:Description> 
+          </ex:femalecolour>
+           <ex:loudness rdf:resource="medium" /> 
+           <ex:pitch>High</ex:pitch>
+           <ex:duration rdf:resource="long"/>
+           <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>   
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Carrion crow">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Cities"/>
+            <rdf:li rdf:resource="uplands"/>
+            <rdf:li rdf:resource="moorlands"/>
+            <rdf:li rdf:resource="woodlands"/>
+            <rdf:li rdf:resource="seeshore"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Mostly resident of western  Europe
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood rdf:resource="Scavengers by nature" />
+          <ex:interestingfact>Can be tamed
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</ex:minmass> 
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ex:maxlifespan> 
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ex:minwingspan> 
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">42</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour>
+          <ex:size rdf:resource="median" /> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ex:maxlength>     
+          <ex:colour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Black</ex:upperpartcolour>
+            <ex:underpartcolour>Grey</ex:underpartcolour>
+           </rdf:Description>
+          </ex:colour> 
+           <ex:loudness rdf:resource="loud"></ex:loudness> 
+           <ex:pitch>Low</ex:pitch>
+           <ex:duration rdf:resource="long"/>
+           <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+          </rdf:Description>
+         </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="swift">
+          <ex:naturalhabitat rdf:resource="Rooftops" />
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Migrate to Africa in winter some may return to the breeding ground in spring, some will remain 
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Flying insects"/>
+            <rdf:li rdf:resource="Airborne spiders"/>
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>Some swifts are among the fastest animals on the planet
+          </ex:interestingfact>
+          
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.4</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184</ex:maxmass> 
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</ex:maxlifespan>     
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17</ex:maxwingspan> 
+          <ex:eyecolour>Dark Brown
+          </ex:eyecolour>
+          <ex:size rdf:resource="small"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.8</ex:maxlength> 
+          <ex:colour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Sooty Brown</ex:upperpartcolour>
+            <ex:underpartcolour>Sooty Brown</ex:underpartcolour>
+           </rdf:Description>
+          </ex:colour> 
+          <ex:loudness rdf:resource="medium" /> 
+          <ex:pitch>High</ex:pitch>
+          <ex:duration rdf:resource="mediumduration"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Blackbird">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="gardens" />
+            <rdf:li rdf:resource="countryside" />
+            <rdf:li rdf:resource="coasts" />
+            <rdf:li rdf:resource="hills" />
+           </rdf:Bag>
+          </ex:naturalhabitat>
+          <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Mostly resident, but the blackbirds that live in northern Europe such as the Scandinavian countries, will fly south-west to spend the winter. 
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Insects"/>
+            <rdf:li rdf:resource="worms"/>
+            <rdf:li rdf:resource="berries"/>   
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>Blackbirds typically like to sing after rain.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour>
+          <ex:eyeringcolour>Yellow</ex:eyeringcolour> 
+          <ex:size rdf:resource="median"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:maxlength> 
+          <ex:malecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:plumage>Glossy Black</ex:plumage>
+            <ex:leg>Blackish-brown</ex:leg>
+           </rdf:Description>
+          </ex:malecolour> 
+          <ex:femalecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:plumage>Sooty-brown</ex:plumage>
+            <ex:throat>brownish-white</ex:throat>
+            <ex:breast>spotted</ex:breast>   
+           </rdf:Description> 
+          </ex:femalecolour>
+          <ex:loudness rdf:resource="medium" /> 
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="short"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+    </rdf:Description>
+    <rdf:Description rdf:about="Countryside">
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Barn owl">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="opencountry"/>
+            <rdf:li rdf:resource="field edges"/>
+            <rdf:li rdf:resource="riverbanks"/>
+            <rdf:li rdf:resource="raodsides"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:nocturnal>
+          <ex:migrationpattern>young Barn owls may disperse but adult Barn owls are nonmigratory
+          </ex:migrationpattern>
+          <ex:type>Bird of prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Mice"/>
+            <rdf:li rdf:resource="Voles"/>
+            <rdf:li rdf:resource="Shrews"/>
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>Barn owls have heart-shaped face that collect sounds as human ears
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">34</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour>
+          <ex:size rdf:resource="large"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</ex:maxlength> 
+          <ex:colour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperwing>buff and grey</ex:upperwing>
+            <ex:back>buff and grey</ex:back>
+            <ex:head>buff and grey</ex:head>
+            <ex:overall>pale</ex:overall>
+           </rdf:Description>
+          </ex:colour> 
+           <ex:loudness rdf:resource="quiet"></ex:loudness> 
+           <ex:pitch>High</ex:pitch>
+           <ex:duration rdf:resource="short"/>
+           <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:regularpattern>   
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Bullfinch">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="woodland edges"/>
+            <rdf:li rdf:resource="orchard"/>
+            <rdf:li rdf:resource="hedgerows"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Mainly resident,but many northern birds migrate further south in the winter
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="seeds"/>
+            <rdf:li rdf:resource="buds"/>   
+            <rdf:li rdf:resource="insects"/>
+           </rdf:Bag>  
+          </ex:typicalfood>  
+          <ex:interestingfact>They form strong, lasting pair bounds and it is usual to see them in pairs throughout the year
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</ex:minmass> 
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:maxlifespan> 
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ex:minwingspan> 
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ex:maxwingspan>
+          <ex:eyecolour >Dark Brown
+          </ex:eyecolour>
+          <ex:size rdf:resource="small"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:maxlength>     
+          <ex:malecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:back>Grey</ex:back>
+            <ex:wing>Black</ex:wing>
+            <ex:breast>Red</ex:breast>
+           </rdf:Description>
+          </ex:malecolour> 
+          <ex:femalecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:back>Brow</ex:back>
+            <ex:wing>Black</ex:wing>
+            <ex:breast>Pinkish-fawn</ex:breast>
+           </rdf:Description> 
+          </ex:femalecolour>
+           <ex:loudness rdf:resource="quiet"></ex:loudness> 
+           <ex:pitch>Low</ex:pitch>
+           <ex:duration rdf:resource="short"/>
+           <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+          </rdf:Description>
+         </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Green woodpecker">
+          <ex:naturalhabitat rdf:resource="EuropeandwesternAsia" />
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Though these birds do not typically migrate, they can be nomadic and may wander with regard to the best food sources throughout the year. 
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood rdf:resource="Ants" />
+          <ex:interestingfact>The pair takes it in turn to incubate the eggs, with the male sitting at night.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</ex:maxmass> 
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlifespan>     
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ex:maxwingspan> 
+          <ex:eyecolour>White
+          </ex:eyecolour>
+          <ex:size rdf:resource="median" /> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ex:maxlength> 
+          <ex:malecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Green</ex:upperpartcolour>
+            <ex:underpartcolour>pale and yellowish</ex:underpartcolour>
+            <ex:crowncolour>Red</ex:crowncolour>
+            <ex:stripes>red-centred</ex:stripes>
+           </rdf:Description>
+          </ex:malecolour> 
+          <ex:femalecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Green</ex:upperpartcolour>
+            <ex:underpartcolour>pale and yellowish</ex:underpartcolour>
+            <ex:crowncolour>Red</ex:crowncolour>
+            <ex:stripes>Black</ex:stripes>
+           </rdf:Description> 
+          </ex:femalecolour> 
+          <ex:loudness rdf:resource="loud"></ex:loudness> 
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="short"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Blackcap">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="gardens" />
+            <rdf:li rdf:resource="parks" />
+            <rdf:li rdf:resource="woodlands" />
+           </rdf:Bag>
+          </ex:naturalhabitat>
+          <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>In winter, will readily come into gardens. 
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Insects"/>
+            <rdf:li rdf:resource="Berries"/>   
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>They are know as northern nightingales.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour> 
+          <ex:size rdf:resource="small"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlength> 
+          <ex:malecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:crown>Black</ex:crown>
+            <ex:upperpartcolour>Grey-brown</ex:upperpartcolour>
+            <ex:underpartcolour>pale grey</ex:underpartcolour>  
+           </rdf:Description>
+          </ex:malecolour> 
+          <ex:femalecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:crown>Red-brown</ex:crown>
+            <ex:upperpartcolour>Brown</ex:upperpartcolour>
+            <ex:underpartcolour>Buff</ex:underpartcolour>   
+           </rdf:Description> 
+          </ex:femalecolour>
+          <ex:loudness rdf:resource="medium" />
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="short"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+    </rdf:Description>
+    <rdf:Description rdf:about="Coastal">
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Kingfisher">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Lacks"/>
+            <rdf:li rdf:resource="canals"/>
+            <rdf:li rdf:resource="rivers"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>In winter, some individuals move to estuaries and the coast.
+          </ex:migrationpattern>
+          <ex:type>Bird of prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="fish"/>
+            <rdf:li rdf:resource="Aquatic insects"/>
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>There are 87 different species of  kingfisher in the world, but only one breeds in Europe.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.4</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:maxwingspan>
+          <ex:eyecolour >Yellow
+          </ex:eyecolour>
+          <ex:eyecolour >Orange
+          </ex:eyecolour>
+          <ex:size rdf:resource="small"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</ex:maxlength> 
+          <ex:colour>Blue</ex:colour>
+          <ex:colour>Orange</ex:colour>
+          <ex:colour>White</ex:colour>
+          <ex:loudness rdf:resource="medium" /> 
+          <ex:pitch>High</ex:pitch>
+          <ex:duration rdf:resource="short" />
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:regularpattern>   
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Lapwing">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Farmlands"/>
+            <rdf:li rdf:resource="Wetlands"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:nocturnal>
+          <ex:migrationpattern>In winter, they flock on pasture and ploughed fields.
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Worms"/>
+            <rdf:li rdf:resource="Insects"/>
+           </rdf:Bag>
+          </ex:typicalfood>
+          <ex:interestingfact>Main predators of lapwings are foxes and crows.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</ex:minmass> 
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlifespan> 
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</ex:minwingspan> 
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour>
+          <ex:size rdf:resource="median" />   
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ex:maxlength>     
+          <ex:colour>Black and white</ex:colour> 
+          <ex:bill>Black</ex:bill> 
+          <ex:crwon>Black</ex:crwon>
+          <ex:loudness rdf:resource="medium" /> 
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="mediumduration"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+          </rdf:Description>
+         </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Meadow pipit">
+           <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Uplands"/>
+            <rdf:li rdf:resource="Moors"/>
+            <rdf:li rdf:resource="Marshes"/>
+            <rdf:li rdf:resource="Suburbanparks"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>In winter it moves south, to more lowland areas.
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Insects"/>
+            <rdf:li rdf:resource="Flies"/>
+            <rdf:li rdf:resource="Beetles"/>
+            <rdf:li rdf:resource="Spiders"/>   
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>Have short song for short flight
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ex:maxmass> 
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:maxlifespan>     
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:maxwingspan> 
+          <ex:eyecolour>Dark Brown
+          </ex:eyecolour>
+          <ex:size rdf:resource="small"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.5</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.8</ex:maxlength> 
+          <ex:colour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Brown</ex:upperpartcolour>
+            <ex:underpartcolour>Buff</ex:underpartcolour>
+           </rdf:Description>
+          </ex:colour> 
+          <ex:loudness rdf:resource="quiet"></ex:loudness> 
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="short"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Merlin">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="coasts" />
+            <rdf:li rdf:resource="uplands" />
+            <rdf:li rdf:resource="moorlands" />   
+           </rdf:Bag>
+          </ex:naturalhabitat>
+          <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>In winter, birds leave upland areas and come down to inland and coastal areas. 
+          </ex:migrationpattern>
+          <ex:type>Bird of prey</ex:type>
+          <ex:typicalfood>Small Birds</ex:typicalfood>
+          <ex:interestingfact>The Merlin is quite unafraid, and will readily attack anything that moves conspicuously. Merlins have even been observed trying to catch automobiles and trains.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">165</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour>
+          <ex:size rdf:resource="median"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ex:maxlength> 
+          <ex:malecolour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:upperpartcolour>Blue-grey</ex:upperpartcolour>
+            <ex:underpartcolour>Buff to orange-tinted</ex:underpartcolour>
+           </rdf:Description>
+          </ex:malecolour> 
+          <ex:femalecolour>
+           <rdf:Description rdf:about="bodypart">
+             <ex:upperpartcolour>Dark brown</ex:upperpartcolour>
+            <ex:underpartcolour>whitish buff spotted with brown</ex:underpartcolour>  
+           </rdf:Description> 
+          </ex:femalecolour>
+          <ex:loudness rdf:resource="loud"></ex:loudness> 
+          <ex:pitch>High</ex:pitch>
+          <ex:duration rdf:resource="short"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+    </rdf:Description>
+    <rdf:Description rdf:about="naturereserves">
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Turtle dove">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Woodlands edges"/>
+            <rdf:li rdf:resource="Hedgerows"/>
+            <rdf:li rdf:resource="Open lands"/>
+            <rdf:li rdf:resource="scattered bushes"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>The turtle dove is a migratory species with a southern Palearctic range covering most of Europe and the Middle East and including Turkey and north Africa, although it is rare in northern Scandinavia and Russia. It winters in southern Africa.
+          </ex:migrationpattern>  
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood rdf:resource="seeds" />
+          <ex:interestingfact>The turtle dove is Britain’s only migratory dove.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">118</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#float">19.5</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</ex:maxwingspan>
+          <ex:eyecolour >Yellow
+          </ex:eyecolour>
+          <ex:size rdf:resource="median" /> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ex:maxlength> 
+          <ex:colour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:throat>Pale pink</ex:throat>
+            <ex:breast>Pale pink</ex:breast>
+            <ex:underpartcolour>white</ex:underpartcolour>
+            <ex:wing>brown marking</ex:wing>
+           </rdf:Description>
+          </ex:colour> 
+           <ex:loudness rdf:resource="medium" />
+           <ex:pitch>Low</ex:pitch>
+           <ex:duration rdf:resource="mediumduration"/>
+           <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>   
+         </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Slavonian grebe">
+          <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Coastal uplands"/>
+            <rdf:li rdf:resource="Marine uplands"/>
+           </rdf:Bag>
+          </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>During migration, they will stop along lakes, rivers and marshes. Following migration, they winter in marine environments of estuaries and bays or inland on large lakes, although in Norway, large concentrations congregate on inland lakes.
+          </ex:migrationpattern>
+          <ex:type>Waterbird</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Smallfish"/>
+            <rdf:li rdf:resource="aquaticinvertebrates"/>  
+           </rdf:Bag>
+          </ex:typicalfood>
+          <ex:interestingfact>Slavonian grebe eats some of its own feathers so that they can digest fishbone.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</ex:minmass> 
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlifespan> 
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</ex:minwingspan> 
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</ex:maxwingspan>
+          <ex:eyecolour >Red
+          </ex:eyecolour>
+          <ex:size rdf:resource="median" /> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ex:maxlength>     
+          <ex:colour>Red-and-black colour
+          </ex:colour> 
+          <ex:loudness rdf:resource="short"></ex:loudness> 
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="mediumduration"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+          </rdf:Description>
+         </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Linnet">
+        <ex:naturalhabitat>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Heatland"/>
+            <rdf:li rdf:resource="Rough ground"/>
+            <rdf:li rdf:resource="Farmland hedges"/>
+            <rdf:li rdf:resource="Salt Marshes"/>
+            <rdf:li rdf:resource="Parks"/>   
+           </rdf:Bag>
+        </ex:naturalhabitat>
+             <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Mostly resident, but some of them migrate to south. 
+          </ex:migrationpattern>
+          <ex:type>Prey</ex:type>
+          <ex:typicalfood>
+           <rdf:Bag>
+            <rdf:li rdf:resource="Seeds"/>
+            <rdf:li rdf:resource="Insects"/>
+           </rdf:Bag>
+          </ex:typicalfood> 
+          <ex:interestingfact>Common linnet eats of 46 different species of plants.
+          </ex:interestingfact>
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19</ex:maxmass> 
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ex:maxlaideggs>   
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:minlifespan>
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</ex:maxlifespan>     
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.4</ex:maxwingspan> 
+          <ex:eyecolour>Black
+          </ex:eyecolour>
+          <ex:size rdf:resource="small"/> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlength> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlength> 
+          <ex:colour>Brown
+          </ex:colour> 
+          <ex:colour>White
+          </ex:colour>  
+           <ex:loudness rdf:resource="medium" />
+           <ex:pitch>High</ex:pitch>
+           <ex:duration rdf:resource="mediumduration"/>
+           <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:regularpattern>
+                </rdf:Description>
+        </ex:nameofbird>
+        <ex:nameofbird>
+         <rdf:Description rdf:about="Little egret">
+          <ex:naturalhabitat rdf:resource="inlands" />
+          <ex:nocturnal rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</ex:nocturnal>
+          <ex:migrationpattern>Northern European populations are migratory, mostly travelling to Africa although some remain in southern Europe, while some Asian populations migrate to the Philippines. 
+          </ex:migrationpattern>
+          <ex:type>Bird of prey</ex:type>
+          <ex:typicalfood rdf:resource="Fish" />
+          <ex:minmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</ex:minmass>
+          <ex:maxmass rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</ex:maxmass>
+          <ex:minlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</ex:minlaideggs>
+          <ex:maxlaideggs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlaideggs>
+          <ex:minlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:minlifespan>  
+          <ex:maxlifespan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ex:maxlifespan>
+          <ex:minwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ex:minwingspan>
+          <ex:maxwingspan rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">36</ex:maxwingspan>
+          <ex:eyecolour >Black
+          </ex:eyecolour>
+          <ex:iriscolour>Yellow</ex:iriscolour> 
+          <ex:size rdf:resource="large"/> 
+          <ex:maxlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ex:maxlength> 
+          <ex:minlength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</ex:minlength> 
+          <ex:colour>
+           <rdf:Description rdf:about="bodypart">
+            <ex:overall>White</ex:overall>
+            <ex:leg>greenish-black</ex:leg>
+           </rdf:Description>
+          </ex:colour> 
+          <ex:loudness rdf:resource="loud" /> 
+          <ex:pitch>Low</ex:pitch>
+          <ex:duration rdf:resource="mediumduration"/>
+          <ex:regularpattern rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</ex:regularpattern>
+         </rdf:Description>
+        </ex:nameofbird>
+    </rdf:Description>
+
+            <rdf:Seq>
+                  <rdf:li rdf:resource="large"/>
+                  <rdf:li rdf:resource="median"/>
+                  <rdf:li rdf:resource="small"/>
+            </rdf:Seq>  
+            <rdf:Seq>
+                  <rdf:li rdf:resource="loud"/>
+                  <rdf:li rdf:resource="medium"/>
+                  <rdf:li rdf:resource="quiet"/>
+                  </rdf:Seq>
+            <rdf:Seq>
+                  <rdf:li rdf:resource="long"/>
+                  <rdf:li rdf:resource="mediumduration"/>
+                  <rdf:li rdf:resource="short"/>
+            </rdf:Seq>
+    
+<!--This is rdf schema part of the document--> 
+ 
+       
+<rdfs:Class rdf:about="places">
+</rdfs:Class>
+<rdfs:Class rdf:about="builtup">
+    <rdfs:subClassOf rdf:resource="places"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="countryside">
+    <rdfs:subClassOf rdf:resource="places"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="coastal">
+    <rdfs:subClassOf rdf:resource="places"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="naturereserves">
+    <rdfs:subClassOf rdf:resource="places"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="animal">
+</rdfs:Class>
+<rdfs:Class rdf:about="sparrowhawks">
+    <rdfs:subClassOf rdf:resource="animal"/>  
+    <rdfs:seeAlso rdf:resource="http://www.rspb.org.uk"/>  
+</rdfs:Class>
+    <rdfs:Class rdf:about="swift">
+    <rdfs:subClassOf rdf:resource="animal"/>  
+    <rdfs:seeAlso rdf:resource="http://www.rspb.org.uk"/>  
+</rdfs:Class>
+<rdf:Property rdf:about="placename">
+        <rdfs:domain rdf:resource="place"/>
+</rdf:Property>
+<rdf:Property rdf:about="naturalhabitat">
+        <rdfs:subPropertyOf rdf:resource="placename"/>
+</rdf:Property>
+<rdfs:ContainerMembershipProperty rdf:about="_1">
+</rdfs:ContainerMembershipProperty>   
+<rdfs:ContainerMembershipProperty rdf:about="_2">
+</rdfs:ContainerMembershipProperty>  
+<rdfs:ContainerMembershipProperty rdf:about="_3">
+</rdfs:ContainerMembershipProperty>     
+</rdf:RDF>
